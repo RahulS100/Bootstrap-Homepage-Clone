@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BootStrap Clone</title>
+</head>
+<body>
+<header class="main_head">
+    <img src="boot_main.svg" alt="bootstrap logo" class="icon_main" id="logo_boot">
+    <nav class="navbar">
+        <ul class="menu_item menu_ham_vi">
+            <li><a href="#" id="active">Home</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Usage</a></li>
+            <li><a href="#">Theme</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <button class="down_btn menu_ham_vi" id="d_btn">Download</button>
+    <!--hamburger menu design using div-->
+    <div class="ham_bur">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    
+</header>
+<!--section for heading of botstrap-->
+<section class="heading1">
+    <div class="lines">
+        <h3 class="main_l">Build fast, responsive sites with Shwetu-Strap</h3>
+        <p class="short_l">Quickly design and customize responsive mobile-first sites with Shwetu-Strap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins</p>
+        <div class="btn_section">
+            <button id="get_start" class="down_btn">Get started</button>
+            <button id="download" class="down_btn">Download</button>
+        </div>
+        <div class="release">
+            <ul class="release_list">
+                <li><a class="r_list" href="#">Currently v5.0.2</a></li>
+                <li><a class="r_list" href="#">v4.6.x Docs</a></li>
+                <li><a class="r_list" href="#">All Release</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="big_icon"><img src="bootstrap.png" alt="bootstrap big icon" id="big_i"></div>
+</section>
+<!--Section for how to install shwetu-strap-->
+<section class="install_sec div1">
+    <div class="sec_m_guide">
+        <h2 class="main_l">Installation</h2>
+        <p class="main_lines short_l">Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor. </p>
+        <p class="short_lines short_l">Package managed installs don’t include documentation or our full build scripts. You can also use our npm template repo to quickly generate a Bootstrap project via npm.</p>
+        <button class="down_btn" id="read_doc">Read Installation Docs</button>
+    </div>
+    <div class="command_install">
+        <p class="command short_l"><span>$</span> npm install bootstrap</p>
+        <p class="command short_l" id="c_last"><span>$</span> gem install bootstrap -v 5.0.2</p>
+    </div>
+</section>
+
+<!--Section jsDelivr shwetu-strap-->
+<section class="install_sec div2">
+    <div class="sec_m_guide">
+        <h2 class="main_l">jsDelivr</h2>
+        <p class="main_lines short_l">When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr.</p>
+        <p class="short_lines short_l"> See it in action with our simple starter template, or browse the examples to jumpstart your next project. You can also choose to include Popper and our JS separately. </p>
+        <button class="down_btn" id="read_doc">Explore the Docs</button>
+    </div>
+    <div class="command_install">
+        <p class="command short_l o_hide">&lt<span>link href</span>="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" <span>crossorigin</span>>="anonymous" &gt</p>
+        <p class="command short_l o_hide" id="c_last">&lt<span>script src</span>="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" <span>crossorigin</span>="anonymous"&gt</script>
+        </p>
+    </div>
+</section>
+
+<!--footer section-->
+<footer class="foot_sec div3">
+<div class="foot_contri">
+    <h4 class="head_con">Bootstrap</h4>
+    <p class="con">Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.</p>
+    <p class="con">Code licensed MIT, docs CC BY 3.0.</p>
+    <p class="con">Currently v5.0.2.</p>
+</div>
+<div class="foot_con">
+    <p class="link_heading">Links</p>
+    <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Docs</a></li>
+        <li><a href="#">Examples</a></li>
+        <li><a href="#">Theme</a></li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+</div>
+<div class="foot_con">
+    <p class="link_heading">Guides</p>
+    <ul class="links">
+        <li><a href="#">Getting started</a></li>
+        <li><a href="#">Starter template</a></li>
+        <li><a href="#">Webpack</a></li>
+        <li><a href="#">Parcel</a></li>
+    </ul>
+</div>
+<div class="foot_con">
+    <p class="link_heading">Projects</p>
+    <ul class="links">
+        <li><a href="#">Bootstrap 5</a></li>
+        <li><a href="#">Bootstrap 4</a></li>
+        <li><a href="#">Icons</a></li>
+        <li><a href="#">RFS</a></li>
+        <li><a href="#">npm starter</a></li>
+    </ul>
+</div>
+<div class="foot_con">
+    <p class="link_heading">Community</p>
+    <ul class="links">
+        <li><a href="#">Issues</a></li>
+        <li><a href="#">Discussions</a></li>
+        <li><a href="#">Corporate sponsors</a></li>
+        <li><a href="#">Open Collective</a></li>
+        <li><a href="#">Slack</a></li>
+        <li><a href="#">Stack Overflow</a></li>
+    </ul>
+</div>
+</footer>
+<script src="action.js"></script>
+</body>
+</html>

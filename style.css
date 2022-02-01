@@ -1,0 +1,468 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-size: 15px;
+}
+:root {
+--color_yellow_d1: #ffc107;
+--color_main: #6f42c1;
+--color_blue: #0d6efd;
+--main_font: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* //navigation bar setting up */
+.main_head{
+    width: 100vw;
+    height: 65px;
+    background-color: var(--color_main);
+    border-radius: 2px;
+    display: flex;
+}
+
+#logo_boot{
+width: 40px;
+height: 34px;
+padding: 15px 0px 0px 10px;
+}
+
+.menu_item {
+    display: flex;
+    list-style: none;
+}
+.navbar {
+    width: 85vw;
+}
+
+.menu_item a {
+    text-decoration: none;
+    margin-left: 14px;
+    font-family: var(--main_font);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.menu_item a:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.menu_item li {
+    margin-top: 24px;
+}
+
+#active {
+    color: rgba(255, 255, 255);
+    font-weight: bold;
+}
+
+.down_btn {
+    height: 38px;
+    width: 105px;
+    margin: 14px 0px 0px 28px;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--color_yellow_d1);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--color_yellow_d1);
+    cursor: pointer;
+}
+.down_btn:hover {
+    background: var(--color_yellow_d1);
+    color: rgba(0, 0, 0, 0.822);
+}
+
+/*heading 1st section for intro*/
+.heading1 {
+    margin-top: 35px;
+    display: flex;
+    height: 80vh;
+}
+.lines{
+width: 60vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.big_icon {
+width: 40vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main_l {
+    font-size: 4.1rem;
+    color: black;
+    font-weight: 400;
+    font-family: var(--main_font);
+    padding: 40px 40px 10px 120px;
+    text-align:left;
+}
+
+.short_l{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.637);
+    font-family: var(--main_font);
+    padding: 0px 40px 0px 120px;
+    text-align: left;
+}
+
+#big_i {
+    width: 550x;
+    height: 350px;
+}
+
+.btn_section {
+    margin-top: 10px;
+    width: 60vw;
+    height: 70px;
+}
+
+#get_start {
+    margin-left: 110px;
+    width: 150px;
+    height: 60px;
+    border-color: var(--color_main);
+    color: white;
+    background: var(--color_main);
+}
+
+#download {
+    width: 150px;
+    height: 60px;
+    border-color: rgb(148, 146, 146);
+    color: rgb(148, 146, 146);
+}
+#download:hover {
+    background: rgb(148, 146, 146);
+    color: white;
+}
+
+.r_list {
+color: black;
+}
+
+.release {
+    margin-top: 20px;
+    height: 40px;
+    width: 60vw;
+}
+.release_list {
+    display: flex;
+    margin-left: 110px;
+    list-style: none;
+}
+.r_list {
+text-decoration: none;
+padding: 0px 20px 10px 0px;
+font-family: var(--main_font);
+font-size: 1.1rem;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.637);
+}
+.r_list:hover{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* install section */
+.install_sec {
+    display: flex;
+    height: 70vh;
+}
+
+.sec_m_guide {
+width: 60vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.command_install{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+}
+
+.main_lines {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.short_lines {
+    margin-top: 5px;
+    font-size: 15px;
+}
+#read_doc {
+    width: 220px;
+    height: 45px;
+    margin-left: 120px;
+    color: var(--color_blue);
+    border-color: var(--color_blue);
+    font-weight: 400;
+}
+#read_doc:hover{
+    background: var(--color_blue);
+    color: white;
+}
+
+.command{
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.04);
+    width: 30vw;
+}
+
+#c_last{
+    margin-top: 20px;
+}
+
+.command > span{
+    color: var(--color_blue);
+}
+
+.o_hide {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/*footer section*/
+.foot_sec {
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.050);
+    display: flex;
+}
+
+.link_heading {
+    font-family: var(--main_font);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.foot_con{
+    width: 15vw;
+    padding: 90px 50px 50px 50px;
+}
+.foot_contri {
+    width: 40vw;
+    padding: 90px 50px 50px 50px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.links li {
+    margin-top: 12px;
+}
+
+.links a {
+    font-family: var(--main_font);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.700);
+}
+.links a:hover{
+    color: var(--color_blue);
+    text-decoration: underline;
+}
+
+.head_con {
+color: rgba(0, 0, 0, 0.800);
+font-family: var(--main_font);
+font-size: 1.5rem;
+font-weight: 500;
+}
+.con{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.700);
+}
+
+/*hamburger manu design*/
+.ham_bur{
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 15px;
+    display: none;
+}
+.line {
+    background-color: white;
+    width: 30px;
+    height: 4px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+/*css code for 990px width screen*/
+@media only screen and (max-width: 990px) {
+    .div1{
+        margin-top: 680px;
+    }
+    .div2{
+        margin-top: 180px;
+    }
+    .div3{
+        margin-top: 180px;
+    }
+    /*end of margin-top for seting up container*/
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .ham_bur {
+        display: block;
+    }
+
+    .heading1 {
+        flex-direction: column;
+        height: 110vh;
+    }
+    .big_icon {
+        position: absolute;
+        top: 300px;
+        width: 100vw;
+        height: 110px;
+    }
+
+    .big_icon img {
+        width: 420px;
+    }
+
+    .lines {
+        position: absolute;
+        top: 500px;
+        width: 100vw;
+    }
+
+    .main_l {
+        font-size: 3rem;
+        font-weight: 300;
+        padding: 40px 40px 10px 60px;
+        text-align: center;
+    }
+
+    .short_l {
+        font-size: 1.4rem;
+        font-weight: 200;
+        padding: 0px 30px 0px 30px;
+        text-align: center;
+    }
+
+    .btn_section {
+        margin-top: 10px;
+        width: 100vw;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #get_start {
+        margin-left: 0px;
+        width: 120px;
+        height: 40px;
+        display: inline-block;
+    }
+
+    #download {
+        width: 120px;
+        height: 40px;
+        display: inline-block;
+    }
+
+    .release {
+        width: 100vw;
+    }
+
+    /*install section responsive design*/
+    .install_sec {
+        height: 60vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec_m_guide {
+        width: 100vw;
+    }
+
+    .command_install {
+        width: 100vw;
+        align-items: center;
+    }
+
+    .command {
+        width: 80vw;
+        margin-top: 10px;
+    }
+
+    #read_doc {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    /*footer section responsive*/
+    .foot_sec {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot_contri {
+        align-self: center;
+        text-align: center;
+    }
+
+    .foot_con {
+        width: 100vw;
+        padding: 2px 50px 50px 46px;
+        text-align: center;
+    }
+
+    /*hamburger menu code*/
+    .main_head {
+        transition: all 150ms ease-out;
+    }
+
+    .menu_ham_vi {
+        visibility: hidden;
+    }
+    .resize_menu {
+        height: 145px;
+    }
+
+    .menu_ham_vi1 {
+        visibility: visible;
+        position: absolute;
+        top:35px;
+        left: 0px;
+    }
+
+    #d_btn {
+        position: absolute;
+        top: 80px;
+        left: 30%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .heading1 {
+        height: 140vh;
+    }
+
+    .main_l {
+        font-size: 2.5rem;
+    }
+
+    .short_l {
+    font-size: 1.2rem;
+    }
+}
